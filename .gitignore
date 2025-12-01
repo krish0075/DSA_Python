@@ -1,0 +1,56 @@
+# --------------------
+# Python cache files
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# --------------------
+# Virtual Environment
+# --------------------
+venv/
+.env/
+env/
+.venv/
+
+# --------------------
+# Pytest
+# --------------------
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# --------------------
+# IDE / Editor settings
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# Logs & temp files
+# --------------------
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# --------------------
+# Byte-compiled or compiled files
+# --------------------
+*.out
+*.class
+
+# --------------------
+# Optional: Jupyter notebooks
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# MacOS specific
+# --------------------
+.DS_Store
