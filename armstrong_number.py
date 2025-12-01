@@ -1,4 +1,7 @@
 def check_armstrong_number(n):
+    """
+        Armstrong number is a number equal to sum of digits each raised to the power of number of digits.
+    """
     num = n
     total = 0
     length = len(str(num))
@@ -7,7 +10,6 @@ def check_armstrong_number(n):
         digit = num % 10
         total = total + digit ** length
         num = num // 10
-
     return n == total
 
 
