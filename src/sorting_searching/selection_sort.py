@@ -21,4 +21,3 @@ def selection_sort(arr):
 
         # Swap the found minimum element with the first element
         arr[i], arr[min_index] = arr[min_index], arr[i]
-    return arr
