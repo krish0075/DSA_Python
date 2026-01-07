@@ -27,6 +27,7 @@ def test_bubble_sort(input_arr, expected):
     bubble_sort(input_arr)
     assert input_arr == expected
 
+
 @pytest.mark.parametrize("input_arr, expected", [
     ([5, 7, 8, 4,1], [1, 4, 5, 7, 8]), # Standard Unsorted
     ([1, 2,3], [1, 2, 3]),             # Sorted
@@ -37,6 +38,7 @@ def test_bubble_sort(input_arr, expected):
 def test_insertion_sort(input_arr, expected):
     insertion_sort(input_arr)
     assert input_arr == expected
+
 
 @pytest.mark.parametrize("input_arr, expected", [
     ([5, 7, 8, 4, 1], [8, 7, 5, 4, 1]), # Standard Unsorted
